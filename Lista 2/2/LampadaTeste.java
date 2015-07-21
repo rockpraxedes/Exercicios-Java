@@ -20,6 +20,18 @@ public class LampadaTeste {
 
     System.out.print(lampadaAzul.toString());
     System.out.print(lampadaVerde.toString());
+    
+    if (lampadaAzul.preco > lampadaVerde.preco){
+      System.out.println ("Lampada Azul é mais cara!");
+    }else {
+      System.out.println ("Lampada Verde é mais cara!");
+    }
+    if (lampadaAzul.potencia > lampadaVerde.potencia){
+      System.out.println ("Lampada Azul é mais cara!");
+    }else {
+      System.out.println ("Lampada Verde é mais cara!");
+    }
+    
   }
 
 }
